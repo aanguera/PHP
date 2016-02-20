@@ -12,6 +12,8 @@
 	 		echo "The first system day is: <b>$temp</b><br>";
 	 		$temp = date("l F jS Y");
 	 		echo "This is the actual date with English ordinal suffix: <b>$temp</b><br>";
+	 		$temp = date('l \, F \t\h\e jS Y');
+	 		echo "In this case we are using some escaping characters: <b>$temp</b><br>";
 	 		$temp = date("Y/m/d");
 	 		echo "This is the actual with short format (Year, month, day): <b>$temp</b><br>";
 	 		$temp = date("H:i:s");
