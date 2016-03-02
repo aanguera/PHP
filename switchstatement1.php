@@ -9,7 +9,7 @@
       	// this program gets the day of the week and says good Monday, good Tuesday ...
          echo "<h1>Day and switch statement</h1>";
 	 		$temp = date("l");
-	 		echo "Some sentences about the week's days. Today is: <b>$temp</b><br>";
+	 		echo "Some sentences about the days of the week. Today is: <b>$temp</b><br>";
 	 		switch($temp) {
 	 			case 'Monday' :
 	 				echo "<br><b>Monday</b> is like a math problem. Add the irritation, subtract the sleep, multiplie the problems, divide the happiness.";
