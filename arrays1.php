@@ -24,11 +24,15 @@
 	 			echo "The index <b>$k</b> is the user: <b>$users[$k]</b><br>";
 	 			$k++;	
 	 		}
+	 		echo "<h3>Sorting arrays</h3>";
+	 		sort($users);
+	 		echo "After using the instruction sort(\$users); , the array looks like this:<br>";
+	 		print_r($users);
 	 		echo "<h2>This is an associative array printed by \"print_r\"</h2>";
 	 		echo "<h3>Printed by \"print_r\"</h3>";
 	 		print_r($capitals);
 			echo "<h3>Printed using the associative names</h3>";
-			echo "In this case using the instruction <b>\$capitals['GE'], </b>print the value: <b> ";	
+			echo "In this case we are using the instruction <b>\$capitals['GE'], </b>print the value: <b> ";	
 			echo $capitals['GE']; 		
 			echo "</b>";
 			echo "<h3>Overwrite elements</h3>";
