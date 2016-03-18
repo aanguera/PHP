@@ -34,7 +34,9 @@
 			echo "<h3>Printed using the associative names</h3>";
 			echo "In this case we are using the instruction <b>\$capitals['GE'], </b>print the value: <b> ";	
 			echo $capitals['GE']; 		
-			echo "</b>";
+			echo "</b><br>";
+			echo "We can't use this statement: <i>echo \"France capital is \$capitals['FR']\"\;</i><br>";
+			echo "We can avoid the error using: <i>echo \"France capital is {\$capitals['FR']}\";</i>";
 			echo "<h3>Overwrite elements</h3>";
 			echo "We can overwrite with the sentence <b>\$capitals ['FR'] = \"Paris-France\";</b><br>";
 			$capitals['FR'] = "Paris-France";
