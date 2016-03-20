@@ -11,7 +11,7 @@
          $food = array(
          	'fruits' => array('banana', 'orange', 'apple'),
          	'dark green vegetables' => array('spinach', 'swiss chard'),
-         	'orange vegetables' => array('pumpkin', 'carots'),
+         	'orange vegetables' => array('pumpkin', 'carrots'),
          );
 	 		
 			echo "<h3>This is a associative and index multidimensional array</h3>";			
