@@ -8,9 +8,15 @@
       <?php
       	// This program shows the content's form
          echo "<h1>Basic form</h1>";
-         echo "<h3>Hello Mr.</h3>";
-         echo $_POST["name"];			
-		?>
+         echo "<h3>Hello ";
+         if($_POST['gender']=="M") {
+         	echo "Mr. ";
+         }
+         else {
+         	echo "Mrs. ";
+         }
+         echo $_POST["name"];
+      ?>
       
    </body>
 </html>
