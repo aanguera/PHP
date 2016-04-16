@@ -7,7 +7,7 @@
 <?php
 
 	$hostname = "localhost";
-	$username = "testphp4";
+	$username = "testphp";
 	$password = "testphp";
 	$databaseName = "testphp";
 
