@@ -1,13 +1,13 @@
 <html>
    <head>
-      <title>MySQL Test</title>
+      <title>MySQL variables test</title>
    </head>
    
    <body>
 <?php
 	
 $host="localhost";
-$user="testphp1";
+$user="testphp";
 $password="testphp";
 
 $cxn = mysqli_connect($host,$user,$password);
